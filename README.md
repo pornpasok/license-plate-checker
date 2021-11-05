@@ -34,7 +34,7 @@ php check_tabien.php
 ย ผ ฝ พ ฟ	        | 8 
 ฏ ฐ	                | 9 
 
-Example: **กม 9999** = 1+5+9+9+9+9 = **42** = **กลุ่มผลรวมดีมาก**
+### Example: **กม 9999** = 1+5+9+9+9+9 = **42** = **กลุ่มผลรวมดีมาก**
 
 Source: https://www.carsome.co.th/news/item/lucky-plate-numbers
 
