@@ -31,5 +31,5 @@ Source: https://www.carsome.co.th/news/item/lucky-plate-numbers
 
 ```
 # Usage:
-php php sum_tabien.php 
+php sum_tabien.php 
 ```
