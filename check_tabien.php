@@ -332,8 +332,22 @@ function score_checker($tb_total) {
 }
 
 //print_r($tb);
+
+/*
+ก ด ถ ท ภ ฤ	= 1
+ข บ ป ง ช	= 2
+ต ฑ ฒ ฆ	    = 3
+ค ธ ร ญ ษ	= 4
+ฉ ณ ฌ น ม ห ฮ ฎ ฬ 	= 5
+จ ล ว อ 	= 6
+ซ ศ ส 	    = 7
+ย ผ ฝ พ ฟ	= 8
+ฏ ฐ	        = 9
+*/
+
 $prefix = "ขอ ";
 $prefix_score = 8;
+
 foreach ($tbs as $tb) {
     $sum = 0;
     $rem = 0;  
