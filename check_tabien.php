@@ -358,7 +358,7 @@ foreach ($tbs as $tb) {
         $tb = $tb/10;  
     }
     $tb_total = $prefix_score+$sum;
-    //$grade = score_checker($tb_total);
+    
     echo "$tb_total = ";
     score_checker($tb_total);
     echo "\n";
