@@ -345,18 +345,20 @@ function score_checker($tb_total) {
 ฏ ฐ	        = 9
 */
 
-$prefix = "ขอ ";
+$prefix = "ขอ";
 $prefix_score = 8;
 
 foreach ($tbs as $tb) {
     $sum = 0;
     $rem = 0;  
     echo "$prefix $tb = ";
-    for ($i=0; $i < strlen($tb); $i++) {
-        $rem = $tb%10;  
-        $sum = $sum + $rem;  
-        $tb = $tb/10;  
-    }
+    // for ($i=0; $i < strlen($tb); $i++) {
+    //     $rem = $tb%10;  
+    //     $sum = $sum + $rem;  
+    //     $tb = $tb/10;  
+    // }
+    $sum = array_sum(str_split($tb));
+
     $tb_total = $prefix_score+$sum;
     
     echo "$tb_total = ";
