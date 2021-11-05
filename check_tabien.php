@@ -331,7 +331,6 @@ function score_checker($tb_total) {
     }
 }
 
-//print_r($tb);
 
 /*
 ก ด ถ ท ภ ฤ	= 1
